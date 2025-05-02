@@ -29,11 +29,11 @@ export async function createFeedback(params: CreateFeedbackParams) {
 
         Please score the candidate from 0 to 100 in the following areas. Do not add categories other than the ones provided:
         - **Communication Skills**: Clarity, articulation, structured responses.
-        - **Grammar**: Rules of a language governing the sounds, words, sentences, and other elements, as well as their combination and interpretation.
-        - **Teaching method**: The specific strategies, techniques, and principles a teacher uses to facilitate student learning.
-        - **Pronunciation**: The way in which a word is pronounced.
-        - **Neutral Accent**: An accent that doesn't readily indicate a specific regional or cultural origin.
-        - **Confidence and Energy**: Energy in voice and confidence to contruct sentences to give student more information.
+        - Grammar: Rules of a language governing the sounds, words, sentences, and other elements, as well as their combination and interpretation.
+        - Teaching method: The specific strategies, techniques, and principles a teacher uses to facilitate student learning.
+        - Pronunciation: The way in which a word is pronounced.
+        - Neutral Accent: An accent that doesn't readily indicate a specific regional or cultural origin.
+        - Confidence and Energy: Energy in voice and confidence to contruct sentences to give student more information.
         `,
       system:
         "You are a professional interviewer analyzing a mock interview. Your task is to evaluate the candidate based on structured categories",
